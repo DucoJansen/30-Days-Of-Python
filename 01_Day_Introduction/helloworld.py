@@ -1,5 +1,7 @@
 # Introduction
 # Day 1 - 30DaysOfPython Challenge
+import math
+import numpy as np
 
 print(2 + 3)   # addition(+)
 print(3 - 1)   # subtraction(-)
@@ -19,3 +21,9 @@ print(type([1, 2, 3]))           # List
 print(type({'name':'Asabeneh'})) # Dictionary
 print(type({9.8, 3.14, 2.7}))    # Set
 print(type((9.8, 3.14, 2.7)))    # Tuple
+print(type(['Asabeneh', 'Python', 'Finland'])   ) # List
+
+def distance(coord1, coord2):
+    return math.sqrt((coord1[0] - coord2[0])**2 + (coord1[1] - coord2[1])**2)
+
+print(distance((3,4), (0,0)))
