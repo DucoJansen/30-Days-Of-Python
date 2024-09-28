@@ -1,4 +1,4 @@
-
+import numpy as np
 # Variables in Python
 
 first_name = 'Asabeneh'
@@ -38,3 +38,30 @@ print('Last name: ', last_name)
 print('Country: ', country)
 print('Age: ', age)
 print('Married: ', is_married)
+
+# Day 2: 30 Days of python programming
+first_name = 'Duco'
+last_name = 'Jansen'
+full_name = first_name + ' ' + last_name
+country = 'Germany'
+city = 'Kranenburg'
+age = 23
+year = 2024
+is_married = False
+is_true = True
+is_light_on = False
+multiple, variables, on, one, line = 1,2,3,4,5
+
+print(type(first_name))
+print(len(first_name + last_name))
+
+num_one, num_two = 5,4
+
+total = num_one + num_two
+diff = num_one - num_two
+product = num_one * num_two
+division = num_one / num_two
+remainder = num_two % num_one
+exp = num_one ** num_two
+floor_division = np.floor(num_one/num_two)
+print(floor_division)
