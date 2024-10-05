@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+
+import math
+>>>>>>> 2cf695b116db8f657eef828951d538303c7c652e
 import numpy as np
 # Variables in Python
 
@@ -65,3 +70,21 @@ remainder = num_two % num_one
 exp = num_one ** num_two
 floor_division = np.floor(num_one/num_two)
 print(floor_division)
+def circleArea(radius):
+    return radius**2 * math.pi
+
+def circleCircum(radius):
+    return radius*2 * math.pi
+
+print(circleArea(2))
+
+area_of_circle = circleArea(30)
+circum_of_circle = circleCircum(30)
+radius = input('Enter a circle radius: ')
+radius_int = int(radius)
+print('Area of circle with radius ',radius,' is: ',circleArea(radius_int))
+
+first_name = input('What is your first name?')
+last_name = input('What is your last name?')
+country = input('What country are you from')
+age = input('How old are you?')
