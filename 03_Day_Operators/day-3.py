@@ -122,3 +122,35 @@ print(not True)      # False - Negation, the not operator turns true to false
 print(not False)     # True
 print(not not True)  # True
 print(not not False) # False
+
+age = 23
+height = 185.5
+complex = 1+3j
+
+base = int(input('Enter a base: '))
+height = int(input('Enter a height: '))
+print('The area of the triangle is', int(base*height*.5))
+
+#exercise 5
+side_a = int(input('Enter side_a: '))
+side_b = int(input('Enter side_b: '))
+side_c = int(input('Enter side_c: '))
+print('The perimeter of the triangle is', int(side_a+side_b+side_c))
+
+#exercise 6
+length = int(input('Enter a length: '))
+width = int(input('Enter a width: '))
+area = 2*length*width
+
+#exercise 7
+radius = int(input('Enter a radius: '))
+area = radius**2 * 3.14
+circumference = radius * 2 * 3.14
+
+#exercise 8 
+# that is a math exercise, i dont see why/how i should solve this
+
+#exercise 9
+def slope(coord1, coord2):
+    return (coord2[1] - coord1[1])/(coord2[0] - coord1[0])
+print(slope((2,2), (6,10)))
